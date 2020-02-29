@@ -107,4 +107,35 @@ body {
 .post-tags p {
   margin: 0 10px 0 0;
 }
+
+/* Tag size */
+.tag-size-1 {
+  font-size: 1rem;
+  color: #5549f8;
+}
+
+.tag-size-2 {
+  font-size: 1.2rem;
+  color: #eb2a2a;
+}
+
+.tag-size-3 {
+  font-size: 1.4rem;
+  color: #ea00ff;
+}
+
+.tag-size-4 {
+  font-size: 1.6rem;
+  color: #ea00ff;
+}
+
+.tag-size-5 {
+  font-size: 2rem;
+  color: #b10e0e;
+}
+
+.tags li {
+  display: inline-block;
+  padding: 0 3px;
+}
 /*# sourceMappingURL=style.css.map */
