@@ -15,6 +15,10 @@ $font-text: 'Source Sans Pro', sans-serif;
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   background: $color-light;
   font-family: $font-text;
@@ -116,5 +120,40 @@ body {
   display: flex;
   p {
     margin: 0 10px 0 0;
+  }
+}
+
+/* Tags */
+
+.tags {
+  li {
+    display: inline-block;
+    padding: 0 5px;
+    line-height: 1;
+  }
+  
+  .tag-size-1 {
+    font-size: 16px;
+    color: #487816;
+  }
+
+  .tag-size-2 {
+    font-size: 20px;
+    color: #2C1085;
+  }
+
+  .tag-size-3 {
+    font-size: 24px;
+    color: #21FCF2;
+  }
+
+  .tag-size-4 {
+    font-size: 28px;
+    color: #FCB021;
+  }
+
+  .tag-size-5 {
+    font-size: 32px;
+    color: #F21F31;
   }
 }
