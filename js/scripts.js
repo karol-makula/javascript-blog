@@ -270,8 +270,6 @@
         }
         const authorList = document.querySelector(optAuthorsListSelector);
 
-        const authorParams = calculateTagsParams(allAuthors);
-
         let allAuthorsHTML = '';
 
         for (let articleAuthor in allAuthors) {
@@ -292,6 +290,7 @@
 
         /* [DONE] make a new constant "href" and read the attribute "href" of the clicked element */
         const href = clickedElement.getAttribute('href');
+        console.log(href);
 
         /* [DONE] make a new constant "author" and extract tag from the "href" constant */
         const author = href.replace('by ' , '');
@@ -328,7 +327,7 @@
     const addClickListenersToAuthors = function(){
 
         /* [DONE] find all links to authors */
-        const allLinks = document.querySelectorAll('.post-author a');
+        const allLinks = document.querySelectorAll('.post-author a, .authors a');
 
         /* [DONE] START LOOP: for each link */
         for(let allLink of allLinks){
