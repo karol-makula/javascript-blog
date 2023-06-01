@@ -290,7 +290,7 @@ const templates = {
             const articleAuthor = article.getAttribute('data-author');
 
             //const linkHTML = '<a href="' + articleAuthor + '">by ' + articleAuthor + '</a>';
-            const linkHTMLData = { id: articleAuthor, title: articleAuthor };
+            const linkHTMLData = {id: articleAuthor, title: articleAuthor};
             const linkHTML = templates.authorLink(linkHTMLData);
 
             html = html + linkHTML;
